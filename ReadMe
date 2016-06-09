@@ -1,0 +1,26 @@
+This project is one that can search for files in a directory (and all of its subdirectories, and their subdirectories, 
+and so on) with interesting characteristics and take some kind of action on those files. Both the notion of interesting 
+characteristics and taking action will be configurable and can each work in a few different ways, but the core act of 
+finding files will always be the same. 
+
+To start out, input a path, for instance:  /User/mazarady/Desktop/Hi
+From here your choices include: 
+
+N: (Enter Name of file you would like to search for)
+E: (Enter extension you would like to search for)
+S: (Enter Number of bytes you would like to search for)
+
+
+Next there, your choices include: 
+
+P: Prints Path to console
+F: Reads First Line of File 
+D: Makes Duplicate copy of the File
+T: Modifies the timestamp:
+
+Sample Input/Output: 
+Enter Path: /Users/mazarady/Desktop/Hi
+N: Name, E: Extension or S: Bytes: N caesarCipher.py
+P: Prints path to console or F: Reads first line of file or D: Makes duplicate copy of the file or T: Modifies the timestamp:  P
+/Users/mazarady/Desktop/Hi/caesarCipher.py
+>>> 
